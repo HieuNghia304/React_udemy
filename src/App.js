@@ -1,18 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { increaseCounter, decreaseCounter } from './redux/action/counterAction';
 import MyComponent from './components/MyComponent'
+import React from 'react';
 
-const App = () => {
+class App extends React.Component {
 
-  return (
-    <div>
-      Hello World với Hiếu Nghĩa &amp; Hỏi Hiếu Nghĩa
-      <MyComponent></MyComponent>
-    </div>
-    
-  );
+  render() {
+    return (
+      <div>
+        Hello World với Hiếu Nghĩa &amp; Hỏi Hiếu Nghĩa
+        <MyComponent></MyComponent>
+      </div>
+    );
+  }
 }
 
 // const App = () => {
